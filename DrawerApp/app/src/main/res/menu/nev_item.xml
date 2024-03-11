@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/groupOne"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/baseline_home_24"
+            android:iconTint="#030404"
+            android:title="Home" />
+
+
+    </group>
+
+
+    <item android:title="Settings">
+        <menu>
+            <group
+                android:id="@+id/groupTwo"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/camera_I"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/baseline_settings_24"
+                    android:iconTint="#009688"
+                    android:title="Select Language" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Links">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/visitus_ID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/baseline_camera_alt_24"
+                    android:iconTint="#009688"
+                    android:title="Visit US" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Communication">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/share_ID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/baseline_share_24"
+                    android:iconTint="#030404"
+                    android:title="Share" />
+
+                <item
+                    android:id="@+id/rateUs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/baseline_star_rate_24"
+                    android:iconTint="#030404"
+                    android:title="Rate Us" />
+
+                <item
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/baseline_settings_24"
+                    android:iconTint="#030404"
+                    android:title="About us" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Privacy Policy">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/baseline_privacy_tip_24"
+                    android:iconTint="#030404"
+                    android:title="Privacy Policy" />
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
